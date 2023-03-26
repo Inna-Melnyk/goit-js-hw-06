@@ -39,7 +39,7 @@ button {
   overflow: hidden;
  
 }
-.item > img {
+.pic-item > img {
  width: 400px;
   height: auto;
 }
