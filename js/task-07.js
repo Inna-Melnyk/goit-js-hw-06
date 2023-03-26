@@ -1,4 +1,3 @@
-
 const rangeElement = document.getElementById("font-size-control");
 
 const textElement = document.getElementById("text");
