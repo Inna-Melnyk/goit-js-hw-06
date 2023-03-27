@@ -5,5 +5,10 @@ const titleEl = document.querySelector("#name-output");
 inputEl.addEventListener("input", onInput);
 
 function onInput(evt) {
-  titleEl.textContent = evt.currentTarget.value.trim();
+  if (evt.currentTarget.value == false) {
+    titleEl.textContent = "Anonymous";
+  } else {
+    titleEl.textContent = evt.currentTarget.value.trim();
+  }
+  
 }

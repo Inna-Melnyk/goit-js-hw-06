@@ -18,6 +18,4 @@ ingredients.forEach((item) => {
   markup.push(ingredientItemEl);
 });
 
-console.log(markup);
-
 ingredientListEl.append(...markup);
